@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Mtm.RecordsRouting Feature1" Description="Feature1" Id="2cbc041e-75b4-4356-9a9e-3c9466a3a71d" ReceiverAssembly="Mtm.RecordsRouting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f734c276a9b8e345" ReceiverClass="Mtm.RecordsRouting.Features.MtmFeature.Feature1EventReceiver" Scope="Site"></Feature>

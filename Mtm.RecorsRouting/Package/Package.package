@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d65e368f-6cd9-4c9d-9878-827118dbce57" solutionId="d65e368f-6cd9-4c9d-9878-827118dbce57" resetWebServer="false" name="Mtm.RecordsRouting" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="dd0def43-e0a9-47b3-bd0a-8831b91d3c3b" />
+  </features>
+</package>

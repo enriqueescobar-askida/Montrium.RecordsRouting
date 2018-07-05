@@ -1,0 +1,2080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10.0">
+  <Targets>
+    <Target Name="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\bin\Release\Mtm.RecordsRouting.dll">
+      <Modules>
+        <Module Name="Mtm.RecordsRouting.dll" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+          <Metrics>
+            <Metric Name="MaintainabilityIndex" Value="73" />
+            <Metric Name="CyclomaticComplexity" Value="527" />
+            <Metric Name="ClassCoupling" Value="87" />
+            <Metric Name="DepthOfInheritance" Value="2" />
+            <Metric Name="LinesOfCode" Value="964" />
+          </Metrics>
+          <Namespaces>
+            <Namespace Name="Mtm.RecordsRouting">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="72" />
+                <Metric Name="CyclomaticComplexity" Value="522" />
+                <Metric Name="ClassCoupling" Value="82" />
+                <Metric Name="DepthOfInheritance" Value="1" />
+                <Metric Name="LinesOfCode" Value="956" />
+              </Metrics>
+              <Types>
+                <Type Name="RecordFieldManager">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="74" />
+                    <Metric Name="CyclomaticComplexity" Value="69" />
+                    <Metric Name="ClassCoupling" Value="28" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="103" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RecordFieldManager(SPListItem, SPList, string, string)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="39">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RecordFieldManager(SPListItem, SPList, string, string, bool)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="28">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="56" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="15" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~RecordFieldManager()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="92">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextUrl.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextUrl.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextListName.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextListName.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FileSPListItem.get() : SPListItem">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FileSPListItem.set(SPListItem) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextSPFields.get() : SPFieldCollection">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextSPFields.set(SPFieldCollection) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextSPSite.get() : SPSite">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextSPSite.set(SPSite) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextSPWeb.get() : SPWeb">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextSPWeb.set(SPWeb) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ChangeVersion.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ChangeVersion.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="NewLookupNodes.get() : List&lt;XmlLookupNode&gt;">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="NewLookupNodes.set(List&lt;XmlLookupNode&gt;) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString(bool) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="132">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="PrintToLogFile(string) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="141">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="72" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="157">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="72" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="168">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="181">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="66" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="9" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="AddUnmatchedLookups(SPListItem) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="210">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="72" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTitleValid(string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="225">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldInternalNameValid(string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="235">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldIdValid(Guid) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="245">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="85" />
+                        <Metric Name="CyclomaticComplexity" Value="7" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTypeValid(SPFieldType) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="261">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="90" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldReadInternalOfFile(SPField) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="273">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="85" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsFieldCopyTarget(SPField, ref SPField) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="288">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="62" />
+                        <Metric Name="CyclomaticComplexity" Value="6" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="9" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ScreenXMLLookup(string) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="305">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="47" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="25" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsFoundOnFileSPListItemFields(XmlLookupNode, ref SPField) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordFieldManager.cs" Line="364">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="66" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="XmlLookupReader">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="78" />
+                    <Metric Name="CyclomaticComplexity" Value="44" />
+                    <Metric Name="ClassCoupling" Value="11" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="49" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="XmlLookupReader(string)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="29">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="71" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~XmlLookupReader()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="51">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="LookupNodeList.get() : List&lt;XmlLookupNode&gt;">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="LookupNodeList.set(List&lt;XmlLookupNode&gt;) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="LookupNodeMatched.get() : XmlLookupNode">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="LookupNodeMatched.set(XmlLookupNode) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="72">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="87" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="81">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Contains(SPField) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="94">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="64" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="8" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Value(SPField) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="118">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="65" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="138">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="75" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FindXmlLookups(XmlElement) : List&lt;XmlLookupNode&gt;" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="168">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="65" />
+                        <Metric Name="CyclomaticComplexity" Value="10" />
+                        <Metric Name="ClassCoupling" Value="7" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsInternalNameUse(string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="201">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="80" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsTitleValid(string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="214">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="80" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsInternalNameValid(string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="227">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="81" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsTypeValid(string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="240">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="80" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsIdValid(string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupReader.cs" Line="253">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="77" />
+                        <Metric Name="CyclomaticComplexity" Value="7" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="XmlLookupNode">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="67" />
+                    <Metric Name="CyclomaticComplexity" Value="50" />
+                    <Metric Name="ClassCoupling" Value="5" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="90" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="XmlLookupNode(string, string, string)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupNode.cs" Line="29">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="67" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~XmlLookupNode()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupNode.cs" Line="53">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CamelCaseName.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CamelCaseName.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Value.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Value.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Type.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Type.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetSentenceName() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupNode.cs" Line="77">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="72" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetSpFieldType() : SPFieldType" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupNode.cs" Line="92">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="34" />
+                        <Metric Name="CyclomaticComplexity" Value="33" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="65" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupNode.cs" Line="169">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="86" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupNode.cs" Line="178">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\XmlLookupNode.cs" Line="191">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="76" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="RecordDocument">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="79" />
+                    <Metric Name="CyclomaticComplexity" Value="97" />
+                    <Metric Name="ClassCoupling" Value="22" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="157" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RecordDocument(List&lt;SPList&gt;, SPListItem, SPListItemCollection)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="35">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="51" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="7" />
+                        <Metric Name="LinesOfCode" Value="22" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~RecordDocument()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="73">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="HasLibrary.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="HasLibrary.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="HasParentLibrary.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="HasParentLibrary.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="HasRoutingRule.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="HasRoutingRule.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="HasParentRoutingRule.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="HasParentRoutingRule.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RoutingRule.get() : SPListItem">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RoutingRule.set(SPListItem) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ParentRoutingRule.get() : SPListItem">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ParentRoutingRule.set(SPListItem) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Author.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Author.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ModifiedBy.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ModifiedBy.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Title.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Title.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContentTypeId.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContentTypeId.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="XmlProperties.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="XmlProperties.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="LogFile.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="LogFile.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CandidateLibrary.get() : SPList">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CandidateLibrary.set(SPList) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ParentCandidateLibrary.get() : SPList">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ParentCandidateLibrary.set(SPList) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ListItem.get() : SPListItem">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ListItem.set(SPListItem) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="File.get() : SPFile">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="File.set(SPFile) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FieldCollection.get() : SPFieldCollection">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FieldCollection.set(SPFieldCollection) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContentType.get() : SPContentType">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContentType.set(SPContentType) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ParentContentType.get() : SPContentType">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ParentContentType.set(SPContentType) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="MoveToLibraryWithoutFolder(string) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="143">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="MoveToLibraryWithFolder(SPFolder) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="154">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="88" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="167">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="56" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="12" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="TraceLog() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="186">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="77" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="195">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ForceContentTypeToLibrary(SPContentType, SPList) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="208">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="73" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="234">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="63" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="10" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetParentContentType(SPContentType) : SPContentType" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="265">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="73" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ScreenMetadata(Hashtable) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="275">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="61" />
+                        <Metric Name="CyclomaticComplexity" Value="8" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="8" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ValidateRoutingRule(SPListItemCollection) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="293">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="69" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetRoutingRule(SPListItemCollection) : SPListItem" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="311">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="69" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetParentRoutingRule(SPListItemCollection) : SPListItem" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="329">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="69" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ScreenForParentRoutingRule(SPListItemCollection) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="345">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="69" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ScreenForLibrary(List&lt;SPList&gt;) : SPList" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="363">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="70" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ScreenForParentLibrary(List&lt;SPList&gt;) : SPList" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="382">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="70" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ValidateLibrary(List&lt;SPList&gt;) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="399">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="61" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="11" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ValidateParentLibrary(List&lt;SPList&gt;) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocument.cs" Line="430">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="63" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="9" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="RoutingRulesManager">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="64" />
+                    <Metric Name="CyclomaticComplexity" Value="42" />
+                    <Metric Name="ClassCoupling" Value="30" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="91" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RoutingRulesManager(string)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="37">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="66" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~RoutingRulesManager()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="62">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RoutingRules.get() : SPListItemCollection">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RoutingRules.set(SPListItemCollection) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetContentTypeBoolean(RecordDocument, bool) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="86">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="64" />
+                        <Metric Name="CyclomaticComplexity" Value="6" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetContentTypeIndices(RecordDocument, bool) : List&lt;int&gt;" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="118">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="62" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="LinesOfCode" Value="8" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="AddNewRule(string, string, string, string, string, string, string, string, string, string, string) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="163">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="55" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="10" />
+                        <Metric Name="LinesOfCode" Value="13" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="PrintToLogFile(string) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="211">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="76" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="227">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="45" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="10" />
+                        <Metric Name="LinesOfCode" Value="26" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="264">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="277">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="78" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetContentTypeBoolean(RecordDocument) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="306">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="68" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetContentTypeIndices(RecordDocument) : List&lt;int&gt;" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="326">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="64" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ScanForCustomOrganizerRules(SPListCollection) : SPListItemCollection" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RoutingRulesManager.cs" Line="347">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="69" />
+                        <Metric Name="CyclomaticComplexity" Value="6" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="RecordCentreManager">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="79" />
+                    <Metric Name="CyclomaticComplexity" Value="23" />
+                    <Metric Name="ClassCoupling" Value="15" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="41" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RecordCentreManager(string)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordCentreManager.cs" Line="28">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="55" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="16" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~RecordCentreManager()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordCentreManager.cs" Line="66">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibrary.get() : SPList">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibrary.set(SPList) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="EnabledLibraries.get() : List&lt;SPList&gt;">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="EnabledLibraries.set(List&lt;SPList&gt;) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RoutingRules.get() : SPListItemCollection">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RoutingRules.set(SPListItemCollection) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibraryDocuments.get() : SPListItemCollection">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibraryDocuments.set(SPListItemCollection) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffRecordDocuments.get() : List&lt;RecordDocument&gt;">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffRecordDocuments.set(List&lt;RecordDocument&gt;) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordCentreManager.cs" Line="96">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="65" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordCentreManager.cs" Line="111">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordCentreManager.cs" Line="124">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="72" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="RecordDocumentManager">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="68" />
+                    <Metric Name="CyclomaticComplexity" Value="25" />
+                    <Metric Name="ClassCoupling" Value="14" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="52" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RecordDocumentManager(SPListItemCollection, List&lt;SPList&gt;, SPListItemCollection)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocumentManager.cs" Line="36">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="64" />
+                        <Metric Name="CyclomaticComplexity" Value="6" />
+                        <Metric Name="ClassCoupling" Value="9" />
+                        <Metric Name="LinesOfCode" Value="8" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~RecordDocumentManager()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocumentManager.cs" Line="60">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RecordDocuments.get() : List&lt;RecordDocument&gt;">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RecordDocuments.set(List&lt;RecordDocument&gt;) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ScanFields(SPList, string) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocumentManager.cs" Line="78">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="72" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="MoveFileToLibrary() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocumentManager.cs" Line="91">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="47" />
+                        <Metric Name="CyclomaticComplexity" Value="8" />
+                        <Metric Name="ClassCoupling" Value="9" />
+                        <Metric Name="LinesOfCode" Value="26" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocumentManager.cs" Line="178">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="72" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocumentManager.cs" Line="191">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordDocumentManager.cs" Line="204">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="78" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="RecordLibraryManager">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="70" />
+                    <Metric Name="CyclomaticComplexity" Value="51" />
+                    <Metric Name="ClassCoupling" Value="24" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="90" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RecordLibraryManager(string)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="31">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="61" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="10" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~RecordLibraryManager()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="57">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibUrl.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibUrl.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibTitle.get() : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibTitle.set(string) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibrary.get() : SPList">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DropOffLibrary.set(SPList) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="EnabledLibraries.get() : List&lt;SPList&gt;">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="EnabledLibraries.set(List&lt;SPList&gt;) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetContentTypeBoolean(RecordDocument, bool) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="90">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="65" />
+                        <Metric Name="CyclomaticComplexity" Value="6" />
+                        <Metric Name="ClassCoupling" Value="7" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetContentTypeIndices(RecordDocument, bool) : List&lt;int&gt;" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="119">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="64" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="PrintToLogFile(string) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="144">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="76" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="160">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="50" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="12" />
+                        <Metric Name="LinesOfCode" Value="19" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="189">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="202">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="71" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetContentTypeBoolean(RecordDocument) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="231">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="69" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="7" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetContentTypeIndices(RecordDocument) : List&lt;int&gt;" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="250">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="66" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ScreenLibraries(SPWeb) : List&lt;SPList&gt;" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="273">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="63" />
+                        <Metric Name="CyclomaticComplexity" Value="8" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="LinesOfCode" Value="8" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="AddLibrary(SPWeb, string, string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordLibraryManager.cs" Line="313">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="65" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="RecordField">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="69" />
+                    <Metric Name="CyclomaticComplexity" Value="121" />
+                    <Metric Name="ClassCoupling" Value="39" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="283" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RecordField(SPField, SPField)" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="32">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="60" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="12" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="~RecordField()" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="64">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldUserIsMultiValue.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldUserIsMultiValue.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldLookupIsMultiValue.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldLookupIsMultiValue.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsTextOrChoice.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsTextOrChoice.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsNumber.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsNumber.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeHasSameUser.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeHasSameUser.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsUser.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsUser.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsLookup.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsLookup.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsLookupOrInvalid.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsLookupOrInvalid.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsDateTime.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldTypeIsDateTime.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldIsTaxonomy.get() : bool">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SPFieldIsTaxonomy.set(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FileSPFieldLookup.get() : SPFieldLookup">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FileSPFieldLookup.set(SPFieldLookup) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FileSPFieldUser.get() : SPFieldUser">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FileSPFieldUser.set(SPFieldUser) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FileSPField.get() : SPField">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FileSPField.set(SPField) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextSPField.get() : SPField">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ContextSPField.set(SPField) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ToString() : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="121">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="57" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="11" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="139">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPField(SPWeb, SPSite, SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="165">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="53" />
+                        <Metric Name="CyclomaticComplexity" Value="8" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="18" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="198">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="66" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="8" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="InitializeSPFieldTests() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="226">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="71" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="8" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTypeTextOrChoice() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="239">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTypeNumber() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="245">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTypeSameUser() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="251">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTypeUser() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="257">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTypeLookup() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="263">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTypeLookupOrInvalid() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="269">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="89" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTypeDateTime() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="276">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsSPFieldTaxonomy() : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="282">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SubStringBefore(string, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="301">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="90" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SubStringAfter(string, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="318">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="61" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="9" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetSPFieldLookupValues(string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="346">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="71" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetSPFieldLookupValues(SPWeb, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="368">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="71" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="7" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetSPFieldLookupValue(string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="387">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetSPFieldLookupValue(string, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="404">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetLookupValue(Guid, SPFieldLookup, string) : SPFieldLookupValue" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="420">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="49" />
+                        <Metric Name="CyclomaticComplexity" Value="7" />
+                        <Metric Name="ClassCoupling" Value="14" />
+                        <Metric Name="LinesOfCode" Value="21" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsUserSPGroupName(SPWeb, string) : bool" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="497">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="70" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetUserSPPrincipal(SPWeb, string) : SPPrincipal" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="515">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="70" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPFieldTypeNumber(SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="534">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="63" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPFieldTypeDateTime(SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="553">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="65" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPFieldTypeByDefault(SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="571">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="68" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPFieldTypeTextOrChoice(SPWeb, SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="594">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="46" />
+                        <Metric Name="CyclomaticComplexity" Value="6" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="25" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPFieldTaxonomy(SPSite, SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="653">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="48" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="14" />
+                        <Metric Name="LinesOfCode" Value="22" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPFieldTypeLookup(SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="706">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="43" />
+                        <Metric Name="CyclomaticComplexity" Value="11" />
+                        <Metric Name="ClassCoupling" Value="10" />
+                        <Metric Name="LinesOfCode" Value="31" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPFieldTypeSameUser(SPWeb, SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="785">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="51" />
+                        <Metric Name="CyclomaticComplexity" Value="6" />
+                        <Metric Name="ClassCoupling" Value="9" />
+                        <Metric Name="LinesOfCode" Value="19" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FixSPFieldTypeUser(SPWeb, SPListItem, string) : string" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\RecordField.cs" Line="837">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="50" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="7" />
+                        <Metric Name="LinesOfCode" Value="20" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+            <Namespace Name="Mtm.RecordsRouting.Features.MtmFeature">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="81" />
+                <Metric Name="CyclomaticComplexity" Value="5" />
+                <Metric Name="ClassCoupling" Value="10" />
+                <Metric Name="DepthOfInheritance" Value="2" />
+                <Metric Name="LinesOfCode" Value="8" />
+              </Metrics>
+              <Types>
+                <Type Name="Feature1EventReceiver">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="81" />
+                    <Metric Name="CyclomaticComplexity" Value="5" />
+                    <Metric Name="ClassCoupling" Value="10" />
+                    <Metric Name="DepthOfInheritance" Value="2" />
+                    <Metric Name="LinesOfCode" Value="8" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="FeatureActivated(SPFeatureReceiverProperties) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\Features\MtmFeature\MtmFeature.EventReceiver.cs" Line="27">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="FeatureDeactivating(SPFeatureReceiverProperties) : void" File="\\Dali\USF\eescobar\My Documents\Visual Studio 2010\Projects\Mtm.RecorsRouting\Mtm.RecorsRouting\Features\MtmFeature\MtmFeature.EventReceiver.cs" Line="36">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="67" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="7" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Feature1EventReceiver()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+          </Namespaces>
+        </Module>
+      </Modules>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="d65e368f-6cd9-4c9d-9878-827118dbce57" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="Mtm.RecordsRouting.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Mtm.RecordsRouting_MtmFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>
